@@ -1,0 +1,63 @@
+@media only screen and (min-width: 1200px) {
+  .fixed {
+    width: 400px;
+  }
+}
+
+.blockquote {
+  margin: 10px;
+  width: 45%;
+}
+
+.progress {
+  background-color: rgb(95, 114, 126);
+}
+
+#timer {
+  margin: 10px;
+  text-align: center;
+  display: flex;
+  align-self: center;
+  font-family: Helvetica, "Trebuchet MS", Verdana, sans-serif;
+  font-size: 25px;
+  background-color: #ed9d2b;
+}
+
+.chall-grid {
+  color: white;
+}
+
+.chall-grid:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.btn-dailylog:hover {
+  transition: all 0.2s ease-in-out;
+  transform: scale(1.15);
+}
+
+.text-dailylog {
+  color: lightgreen;
+}
+
+.edit {
+  color: lightgreen;
+}
+
+.edit > input {
+  font-size: 16px;
+}
+
+.edit > ::placeholder {
+  color: lightgreen;
+}
+
+.edit:hover > ::placeholder {
+  color: white;
+}
+
+.dailylog-field {
+  box-sizing: border-box;
+  width: 100%;
+}

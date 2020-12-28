@@ -1,0 +1,42 @@
+{
+  "name": "xdaysofcodedailyloggerapp",
+  "version": "1.0.0",
+  "description": "MERN stack app for x-days-of-code-daily-logger",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "server": "nodemon server",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server \" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wolfthread/x-days-of-code-daily-logger.git"
+  },
+  "author": "Sylvain Dessureault",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wolfthread/x-days-of-code-daily-logger/issues"
+  },
+  "homepage": "https://github.com/wolfthread/x-days-of-code-daily-logger#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "config": "^3.3.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-mongo-sanitize": "^2.0.0",
+    "express-rate-limit": "^5.1.3",
+    "express-validator": "^6.4.0",
+    "gravatar": "^1.8.0",
+    "helmet": "^3.22.0",
+    "hpp": "^0.2.3",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.6",
+    "request": "^2.88.2",
+    "xss-clean": "^0.1.1"
+  },
+  "devDependencies": {
+    "concurrently": "^5.1.0",
+    "nodemon": "^2.0.2"
+  }
+}
