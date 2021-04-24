@@ -52,6 +52,10 @@ JWTSECRET="<Your_Long_String_Here>"
 npm run dev
 ```
 
+## Update
+
+I will most probably pick this project up again, re-designing some aspects of it.
+
 ## License
 
 MIT.

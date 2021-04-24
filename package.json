@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wolfthread/x-days-of-code-daily-logger.git"
+    "url": "git+https://github.com/syldess/x-days-of-code-daily-logger.git"
   },
   "author": "Sylvain Dessureault",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/wolfthread/x-days-of-code-daily-logger/issues"
+    "url": "https://github.com/syldess/x-days-of-code-daily-logger/issues"
   },
-  "homepage": "https://github.com/wolfthread/x-days-of-code-daily-logger#readme",
+  "homepage": "https://github.com/syldess/x-days-of-code-daily-logger#readme",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "config": "^3.3.1",
